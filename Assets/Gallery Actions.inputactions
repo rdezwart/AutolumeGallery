@@ -1,0 +1,125 @@
+{
+    "name": "Gallery Actions",
+    "maps": [
+        {
+            "name": "Painting",
+            "id": "295567ed-732b-47a2-b915-93a6365adf71",
+            "actions": [
+                {
+                    "name": "Rotate Tile CW",
+                    "type": "Button",
+                    "id": "c6e2bb20-571b-440f-bf1d-b540c58fb49d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Rotate Tile CCW",
+                    "type": "Button",
+                    "id": "4763de6a-9536-4e03-a57e-ff96aa162db3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Flip Tile Horizontally",
+                    "type": "Button",
+                    "id": "16cb4baf-5ce1-401e-ae31-970b335b27b4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Flip Tile Vertically",
+                    "type": "Button",
+                    "id": "a1d3fca0-bddd-4713-9616-890c84aa71a8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Screenshot",
+                    "type": "Button",
+                    "id": "5a70769b-c428-4100-b31e-b8ce3cd59526",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a7f8c4cb-fede-4b8d-a9e1-80d6e19d5e23",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flip Tile Vertically",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "29457c5c-ffc7-48ee-9aff-848eec4392f4",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate Tile CCW",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3c43808c-fc8b-4d74-8571-d96333c6932d",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flip Tile Horizontally",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "747b7ad4-c23c-4933-8348-bcd807ed2f37",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate Tile CW",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ed69b8c2-7f9f-4fd9-84d5-a80fb509a2aa",
+                    "path": "<XRController>{LeftHand}/{TriggerButton}",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Screenshot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c2b2eb28-0a70-40b6-b7e2-1be2c1fb31d5",
+                    "path": "<XRController>{RightHand}/{TriggerButton}",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Screenshot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
