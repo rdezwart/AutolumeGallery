@@ -3,7 +3,7 @@
 *An interactive virtual gallery space where users can manipulate and explore the latent space of a GAN in 3D.*
 
 This repository is part of my project, **Exploring GAN Latent Space with Virtual Reality**. The latest build of the
-project can be found as a [release](https://github.com/rdezwart/AutolumeGallery/releases)!
+project can be found as a [release](https://github.com/rdezwart/AutolumeGallery/releases/latest)!
 
 Demo video:
 
