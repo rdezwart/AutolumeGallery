@@ -8,7 +8,7 @@ project can be found as a [release](https://github.com/rdezwart/AutolumeGallery/
 
 Watch the demo video on YouTube:
 
-[![Demo Video](https://github.com/user-attachments/assets/41c73151-84c8-4e53-8c81-7f6f5fd8a286)](https://youtu.be/Brn7nG2WOXA)
+[![Demo Video](https://github.com/user-attachments/assets/34741d4d-146a-4113-94f7-6530ebce10e4)](https://youtu.be/Brn7nG2WOXA)
 
 [Original, shorter demo](https://youtu.be/w-MfGlRWaFY).
 
