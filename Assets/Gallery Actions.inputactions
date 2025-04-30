@@ -49,6 +49,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Reset All",
+                    "type": "Button",
+                    "id": "3d336085-cbf0-4937-99d9-390b63f2a9ef",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -115,6 +124,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Screenshot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "593d97f0-17cd-47fb-9596-a4b2e8206407",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxisClick}",
+                    "interactions": "MultiTap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset All",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e7c5d03f-464a-4cc1-9a91-b6e11abbfced",
+                    "path": "<XRController>{RightHand}/{Primary2DAxisClick}",
+                    "interactions": "MultiTap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset All",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
